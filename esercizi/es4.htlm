@@ -3,5 +3,21 @@
 <head>
 <body> 
 
-<table>
-<td rowspan ="3">< colspan ="1"> N. </td>
+ <table>
+    <caption>Students</caption>
+  <tr>
+    <th>N.</th>
+    <td>titolo</td>
+    <td>
+    
+   <tr>
+    <th>1</th>
+    <td>Smith</td>
+    <td>Jackson</td>
+  </tr>
+  
+ </td>
+  </tr>
+ 
+</table>
+
