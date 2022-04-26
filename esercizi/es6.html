@@ -2,47 +2,59 @@
 <html>
 <head>
 <style>
-table, th , td {
-  border: 1px solid black;
-  border-collapse: collapse;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
+
+  table, th , td {
+
+    border: 0px solid black;
+    border-collapse: collapse;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+
+  }
+  div {
+    padding-left: 100px;
+  	padding-right: 100px;
 }
+#riga1 {
+  font-size: 20px;
+  font-family: verdana;
+
+}
+#riga2 {
+  font-size: 10px;
+
+}
+#BACHECA {
+
+  font-size: 20px;
+	color:red;
+}
+
+
 
 </style>
 </head>
 <body>
-	<hr>
-	<table>
-	<tr>
-	<th rowspan="2">IMMAGINE</th>
-	</tr>
-	<tr>
-	<td rowspan="2"> </td>
-	</tr>
-	<td rowspan="2">BACHECA</td>
-	</tr>
-	<tr>
-	<td rowspan="2">Consulta bacheca</td>
-	</tr>
-	<td rowspan="2">Bacheca online</td>
-	</tr>
-	<tr>
-	<th rowspan="2">Visualizza i messaggi in bacheca</th>
-	</tr>
-	<td rowspan="2">?</td>
-	</tr>
-	<tr>
-	<td rowspan="2">Aiuto</td>
-	</tr>
-	
-	
-		</tr>
-	
-	</table>
-	<hr>
+<hr style="height:1px;border-width:0;background-color:red">
+
+<table border="1" width="100%">
+          <tr id="riga1">
+              <td>IMG</td>
+              <td><span id="BACHECA">BACHECA</span></td>
+              <td>Bacheca online</td>
+              <td><div> </div></td>
+              <td>?</td>
+          </tr>
+          <tr id="riga2">
+            <td>   </td>
+            <td>Consulta la bacheca</td>
+            <td>Visualizza i messaggi in bacheca</td>
+            <td><div> </div></td>
+            <td>Aiuto</td>
+
+          </tr>
+</table>
+
+<hr style="height:1px;border-width:0;background-color:red">
 </body>
 </html>
-
