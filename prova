@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html> 
+<style> 
+class.testo {
+color: yellow;
+}
+#grassetto {
+color: blue; 
+}
+#corsivo {
+font-style: italic;
+}
+<body class="testo;">
+grassetto, corsivo e normale
+</style>
+</html>
